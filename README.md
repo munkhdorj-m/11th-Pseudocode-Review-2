@@ -1,79 +1,35 @@
-# Pseudocode Review 1
+# Pseudocode Review 2
 
 ## Exercises
 
-1. Ask the user to enter 5 numbers.
-Count how many of them are positive.
+1. Input N integers, store them in an array, and print the sum.
 
-        Input: 5, -2, 0, 9, 11
-        Output: 3
+        Input: 4 7 1 3 5
+        Output: Sum = 20
    
-2. Input three numbers.
-Output the largest.
+2. Input N numbers into an array. Find and print the largest value.
 
-        Input: 12, 4, 7
-        Output: 12
+        Input: 10 25 3 48 12 7
+        Output: Largest = 48
 
-3. Repeatedly input numbers.
-Stop when user enters 0.
-Output the total sum.
+3. Count how many elements in an array are even.
 
-        Input: 4, 10, -3, 0
-        Output: 11
+        Input: 2 5 8 11 14 7 6
+        Output: Even count = 4
    
-4. Input an age.
-If `age >= 18`, output "Adult", else output "Minor".
+4. Given an array, print the array in reverse order.
 
-        Input: 15
-        Output: Minor
+        Input: 5 9 3 7 2 8
+        Output: 8 3 1 4 9
 
-5. Correct password = `"python123"`
-Allow the user up to 3 attempts.
-If correct → `"Access Granted"`
-Otherwise → `"Locked"`.
+5. Search for a target value in an array. If found print the index; else print “Not found”.
 
         Input:
-           abc
-           123
-           python123
-        Output: Access Granted
+              Numbers: 5 9 3 7 2 8
+              Target = 7
+        Output: Found at index 3
 
+6. Input an array and check if it is strictly increasing.
 
-6. Input a number `n`.
-Print its multiplication table from 1 to 12.
-
-        Input: 5
-        Output:
-        5
-        10
-        15
-        20
-        25
-        30
-        35
-        40
-        45
-        50
-        55
-        60
-
-7. Input a number (e.g. 552315).
-Count how many digits are 5.
-(Must use loops + mod/div.)
-
-        Input: 552315
-        Output: 3
-
-8. Input a number.
-Output its digits reversed.
-
-        Input: 12340
-        Output: 4321
-
-9. Input a number.
-Check if it is a perfect number:
-(sum of divisors except itself = number)
-Use a loop.
-
-        Input: 28
-        Output: Perfect
+        Input: 1 3 5 7 9
+        Output: Strictly increasing = Yes
